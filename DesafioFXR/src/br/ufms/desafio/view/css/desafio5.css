@@ -1,0 +1,52 @@
+ /*Rafael Viana - Debian 8*/
+.button:hover{ 
+    -fx-opacity: 1;  
+}
+
+.label{
+    color: red;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+
+.button.btn-entrar{
+    -fx-base: #16e832;
+}
+.button.btn_prox{
+    -fx-base: #16e832;
+}
+.button.btn-cancelar{
+    -fx-base:#ee2828
+    
+}
+
+.pane_black{
+    -fx-background-color: black;
+    -fx-opacity: 0.4;
+}
+
+.root{
+
+    -fx-background-image: url("/br/ufms/desafio/view/images/foto_5.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: auto 110%;
+    -fx-background-position:  center center;
+
+}
+
+.tooltip {
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: black;
+    -fx-border-color: null;
+    -fx-border-radius: 0;
+}
+
+
+
+
